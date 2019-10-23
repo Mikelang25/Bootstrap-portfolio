@@ -1,9 +1,61 @@
-.headshot{
-    text-align: center;
+body{
+    background-color: grey;
 }
 
-.col-md-6,.col-md-3{
-    border-style: solid;
-    border-width: 2pt;
+.nav-items{
+    color:black !important;
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+}
+
+
+
+.main-head{
+    color:black !important;
+    border-style:solid !important;
+    border-width: 1pt !important;
+    border-color:black !important;
+    padding: 15px !important;
+    margin:0 !important;
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke !important;
+    background-color: grey !important;
+}
+
+.head-about{
+    padding-left: 1%;
+    padding-top:0.5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 17pt;;
+}
+
+.filler-row{
+    height:25px;
+}
+
+.header-col{
+    border-top: 1pt solid black;
+    border-left: 1pt solid black;
+    border-right: 1pt solid black;
+    background-color: whitesmoke;
+}
+
+.aboutme-col{
+    border-bottom: 1pt solid black;
+    border-left: 1pt solid black;
+    border-right: 1pt solid black;
+    background-color: whitesmoke;
+}
+
+.card-img-headshot{
+    margin:5px;
+    border-style:solid;
+    border-width: 1pt;
     border-color:black;
 }
+
+.card-main, .pic-col{
+    background-color: whitesmoke;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
