@@ -84,4 +84,13 @@ body{
     height:200px;
 }
 
-/* contact form specific begin */
+/* contact form specific end */
+/* portfolio form specific begin */
+
+.proj-area{
+    background-color:white;
+    height:200px;
+    margin-top:20px;
+    margin-bottom:40px;
+    border:1pt solid black;
+}
