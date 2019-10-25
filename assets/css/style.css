@@ -2,60 +2,66 @@ body{
     background-image: url('../images/prism.png');
 }
 
-.nav-items{
-    color:white !important;
-    font-family: 'Georgia', Times, Times New Roman, serif !important;
+.nav-custom{
+    border-bottom: 1px solid whitesmoke ;
 }
 
-
-
-.main-head{
-    color:black !important;
-    border-style:solid !important;
-    border-width: 1pt !important;
-    border-color:black !important;
-    padding: 15px !important;
-    margin:0 !important;
+.navbar-brand{
     font-family: 'Georgia', Times, Times New Roman, serif !important;
+    border: 1pt solid black !important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    background: lightgray !important;
     text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke !important;
-    background-color:grey !important;
 }
 
-.head-about{
-    padding-left: 1%;
-    padding-top:0.5%;
+.navbar-nav{
+    font-size: 14pt !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+}
+
+.nav-item{
+    color:whitesmoke !important;
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+    text-align: center !important;
+}
+
+.first-row{
+    margin-top:50px;
+
+}
+
+.content-main{
+    background-color: whitesmoke;
+    border-left: 3pt solid grey;
+    border-top: 3pt solid grey;
+    border-right: 3pt solid grey;
+}
+
+.section-head{
+    color:black;
+    font-size: 18pt;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top: 5px;
     font-weight: bold;
-    font-size: 17pt;;
+
 }
 
-.filler-row{
-    height:25px;
-}
-
-.header-col{
-    border-top: 1pt solid black;
-    border-left: 1pt solid black;
-    border-right: 1pt solid black;
+.content-main2{
     background-color: whitesmoke;
+    padding-bottom: 20pt;
+    border-left: 3pt solid grey;
+    border-bottom: 3pt solid grey;
 }
 
-.aboutme-col{
-    border-bottom: 1pt solid black;
-    border-left: 1pt solid black;
-    border-right: 1pt solid black;
+.content-main3{
     background-color: whitesmoke;
-}
-
-.card-img-headshot{
-    margin:5px;
-    border-style:solid;
-    border-width: 1pt;
-    border-color:black;
-}
-
-.card-main, .pic-col{
-    background-color: whitesmoke;
+    border-right: 3pt solid grey;
+    border-bottom: 3pt solid grey;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.bio{
+    margin-top:20px;
+}
