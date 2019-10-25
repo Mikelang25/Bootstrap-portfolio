@@ -77,6 +77,7 @@ body{
 .bio{
     margin-top:20px;
     padding:5px;
+    line-height:1.5;
 }
 
 /* contact form specific begin */
@@ -88,9 +89,14 @@ body{
 /* portfolio form specific begin */
 
 .proj-area{
-    background-color:white;
+    background-color: black;
     height:200px;
     margin-top:20px;
     margin-bottom:40px;
-    border:1pt solid black;
+    border:2pt solid grey;
 }
+.img-jackie{
+    height:100% !important;
+}
+
+/* portfolio form specific end */
