@@ -55,6 +55,14 @@ body{
     border-bottom: 3pt solid grey;
 }
 
+.content-main4{
+    background-color: whitesmoke;
+    border-right: 3pt solid grey;
+    border-left: 3pt solid grey;
+    border-bottom: 3pt solid grey;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 .content-main3{
     background-color: whitesmoke;
     border-right: 3pt solid grey;
@@ -62,6 +70,18 @@ body{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.img-head{
+    border:1pt solid black;
+}
+
 .bio{
     margin-top:20px;
+    padding:5px;
 }
+
+/* contact form specific begin */
+#msg-area{
+    height:200px;
+}
+
+/* contact form specific begin */
