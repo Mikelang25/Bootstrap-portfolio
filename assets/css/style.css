@@ -92,11 +92,78 @@ body{
     background-color: black;
     height:200px;
     margin-top:20px;
-    margin-bottom:40px;
+    margin-bottom:20px;
     border:2pt solid grey;
 }
-.img-jackie{
-    height:100% !important;
+
+.proj-lbl{
+    color:white;
+    text-decoration: none;
 }
+
+.proj-label-4{
+    position: absolute;
+    left:0px;
+    bottom:20px;  
+    background-color: black;
+    width:100%;
+    color:white;
+    border:1pt solid white;
+}
+.proj-label-3{
+    position: absolute;
+    left:0px;
+    bottom:20px;  
+    background-color: black;
+    width:100%;
+    color:white;
+    border:1pt solid white;
+}
+
+.proj-label-2{
+    position: absolute;
+    left:0px;
+    bottom:20px;  
+    background-color: black;
+    width:100%;
+    color:white;
+    border:1pt solid white;
+}
+
+.proj-label-1{
+    position: absolute;
+    left:0px;
+    bottom:20px;  
+    background-color: black;
+    width:100%;
+    color:white;
+    border:1pt solid white;
+}
+
+.area-1{
+    background-image: url('../images/superhero.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.area-2{
+    background-image: url('../images/giph.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.area-3{
+    background-image: url('../images/Baseball_Icon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.area-4{
+    background-image: url('../images/chelsea.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 
 /* portfolio form specific end */
