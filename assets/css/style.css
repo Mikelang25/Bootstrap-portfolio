@@ -165,5 +165,18 @@ body{
     background-position: center;
 }
 
+.area-5{
+    background-image: url('../images/train.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.area-6{
+    background-image: url('../images/trophy.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 /* portfolio form specific end */
